@@ -1,6 +1,6 @@
 # 📚 Books CRUD API
 
-A lightweight, well-structured RESTful API built with Node.js and Express. This project was developed as a practical exercise to implement backend best practices, clean architecture, and modular routing.
+A lightweight, well-structured RESTful API built with Node.js & Express. This project was developed as a practical exercise to implement backend best practices, clean architecture, & modular routing.
 
 ## 🚀 Features
 
