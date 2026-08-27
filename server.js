@@ -1,6 +1,6 @@
 import express from 'express';
-import booksRouter from './routes/booksRoutes';
-import { logger } from './middlewares/logger';
+import booksRouter from './routes/booksRoutes.js';
+import { logger } from './middlewares/logger.js';
 
 const PORT = process.env.PORT || 8080;
 
