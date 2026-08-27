@@ -1,5 +1,5 @@
 import express from 'express';
-import { Router } from 'express';
+import booksRouter from './routes/booksRoutes';
 import { logger } from './middlewares/logger';
 
 const PORT = process.env.PORT || 8080;
@@ -13,6 +13,6 @@ app.use(express.json());
 app.use(logger);
 
 //API routes
-app.use('/api/books', bookRoutes);
+app.use('/api/books', booksRouter);
 
 app.listen(PORT, () => console.log(`Server is running on PORT: ${PORT}`));
