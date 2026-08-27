@@ -48,8 +48,8 @@ Ensure you have [Node.js](https://nodejs.org) installed on your machine.
 Clone this repository and install the dependencies:
 
 ```bash
-git clone <your-repository-url>
-cd <your-repository-folder>
+git clone https://github.com/Purnesh-codes/books-crud-api.git
+cd books-crud-api
 npm install
 ```
 
